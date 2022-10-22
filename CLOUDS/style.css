@@ -1,0 +1,43 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('img/IMG-5620.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+    a:link {
+    color: white;
+    }
+    a:visited {
+        color: yellow;
+      }
+      a:hover {
+        color: yellowgreen;
+      }
+      a:active {
+        color: yellowgreen;
+      }    
+
+.profile {
+    border-radius: 50%; border: 10px solid #FEDE00;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
